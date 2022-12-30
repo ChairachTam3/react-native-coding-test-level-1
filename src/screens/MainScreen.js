@@ -14,6 +14,10 @@ const MainScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("FormScreen")}
         title="Contact Us"
       />
+      <Button
+        onPress={() => navigation.navigate("PokemonScreen")}
+        title="View Catalog"
+      />
     </View>
   );
 };
